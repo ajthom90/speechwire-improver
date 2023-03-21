@@ -1,10 +1,14 @@
 {
 	"name": "SpeechWire Improver",
 	"description": "Some simple improvements to SpeechWire.",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"manifest_version": 3,
-	"permissions": ["tabs"],
+	"permissions": [],
 	"host_permissions": ["*://manage.speechwire.com/*"],
+	"icons": {
+		"48": "SWI.png",
+		"96": "SWI@2x.png"
+	},
 	"content_scripts": [
 		{
 			"matches": ["*://manage.speechwire.com/tabroom/view-comp.php*"],
